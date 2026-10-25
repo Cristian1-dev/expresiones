@@ -19,7 +19,7 @@ const ejemplos = [
             { text: "We'd better", highlight: true },
             { text: "hurry up or we'll miss the bus.", highlight: false },
         ],
-        espanol: "Será mejor que nos demos prisa o perderemos el autobús."
+        espanol: "Será mejor que nos apresuremos o perderemos el autobús."
     },
     {
         ingles: [

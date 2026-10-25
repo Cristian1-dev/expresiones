@@ -22,7 +22,7 @@ const ejemplos = [
             { text: "working", highlight: "ing" },
             { text: "with you.", highlight: false },
         ],
-        espanol: "Estamos ansiosos de trabajar con usted."
+        espanol: "Estamos ansiosos de trabajar contigo."
     },
     {
         ingles: [

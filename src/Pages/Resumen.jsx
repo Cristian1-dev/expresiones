@@ -26,8 +26,8 @@ export const Resumen = () => (
                     </thead>
                     <tbody>
                         <tr className="resumen-row row-amber">
-                            <td className="resumen-col-expr"><span className="res-hl res-hl--amber">Give [something] some thought</span></td>
-                            <td className="resumen-col-sign">Pensarlo / Reflexionarlo</td>
+                            <td className="resumen-col-expr"><span className="res-hl res-hl--amber">Give [something] thought</span></td>
+                            <td className="resumen-col-sign">Pensar / Reflexionar</td>
                             <td className="resumen-col-regla">Estructura separable; inserta el objeto (it) en el centro.</td>
                             <td className="resumen-col-ejemplo">
                                 Before buying that expensive car, you should <span className="res-hl res-hl--amber">give it some thought</span>.

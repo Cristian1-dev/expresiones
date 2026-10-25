@@ -32,11 +32,12 @@ body {
     width: 34vw;
     max-width: 640px;
     height: auto;
-    opacity: 0.07;   
+    opacity: 0.07;
     animation: marcaPulso 8s ease-in-out infinite;
 }
 
 @keyframes marcaPulso {
+
     0%,
     100% {
         opacity: 0.06;
@@ -89,10 +90,13 @@ body {
 }
 
 @keyframes highlightPulseIndigo {
-    0%, 100% {
+
+    0%,
+    100% {
         box-shadow: 0 0 6px rgba(129, 140, 248, 0.35);
         background: rgba(129, 140, 248, 0.08);
     }
+
     50% {
         box-shadow: 0 0 24px rgba(129, 140, 248, 0.85);
         background: rgba(129, 140, 248, 0.22);
@@ -100,10 +104,13 @@ body {
 }
 
 @keyframes highlightPulseOrange {
-    0%, 100% {
+
+    0%,
+    100% {
         box-shadow: 0 0 6px rgba(249, 115, 22, 0.35);
         background: rgba(249, 115, 22, 0.1);
     }
+
     50% {
         box-shadow: 0 0 24px rgba(249, 115, 22, 0.85);
         background: rgba(249, 115, 22, 0.24);
@@ -129,9 +136,17 @@ body {
 }
 
 @keyframes bgShiftIndigo {
-    0%   { background-position: 0% 50%; }
-    50%  { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 /* Rejilla animada */
@@ -139,28 +154,29 @@ body {
     position: fixed;
     inset: -50%;
     background-image:
-        repeating-linear-gradient(
-            75deg,
+        repeating-linear-gradient(75deg,
             transparent,
             transparent 55px,
             rgba(99, 102, 241, 0.045) 55px,
-            rgba(99, 102, 241, 0.045) 56px
-        ),
-        repeating-linear-gradient(
-            -75deg,
+            rgba(99, 102, 241, 0.045) 56px),
+        repeating-linear-gradient(-75deg,
             transparent,
             transparent 55px,
             rgba(249, 115, 22, 0.04) 55px,
-            rgba(249, 115, 22, 0.04) 56px
-        );
+            rgba(249, 115, 22, 0.04) 56px);
     animation: stripesMoveIndigo 11s linear infinite;
     z-index: 0;
     pointer-events: none;
 }
 
 @keyframes stripesMoveIndigo {
-    from { transform: translate(0, 0); }
-    to   { transform: translate(75px, 0); }
+    from {
+        transform: translate(0, 0);
+    }
+
+    to {
+        transform: translate(75px, 0);
+    }
 }
 
 /* Orbes brillantes decorativos */
@@ -194,13 +210,31 @@ body {
 }
 
 @keyframes orbPulseIndigo1 {
-    0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.16; }
-    50%      { transform: translate(-50%, -50%) scale(1.3); opacity: 0.28; }
+
+    0%,
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.16;
+    }
+
+    50% {
+        transform: translate(-50%, -50%) scale(1.3);
+        opacity: 0.28;
+    }
 }
 
 @keyframes orbPulseIndigo2 {
-    0%, 100% { transform: scale(1); opacity: 0.14; }
-    50%      { transform: scale(1.35); opacity: 0.26; }
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.14;
+    }
+
+    50% {
+        transform: scale(1.35);
+        opacity: 0.26;
+    }
 }
 
 /* =========================================
@@ -282,6 +316,7 @@ body {
         opacity: 0;
         transform: translateY(-10px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -418,6 +453,7 @@ body {
         opacity: 0;
         transform: translateY(30px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
