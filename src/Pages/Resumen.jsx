@@ -38,7 +38,7 @@ export const Resumen = () => (
                         </tr>
                         <tr className="resumen-row row-teal">
                             <td className="resumen-col-expr"><span className="res-hl res-hl--teal">When it comes to ~</span></td>
-                            <td className="resumen-col-sign">Cuando se trata de… / A la hora de…</td>
+                            <td className="resumen-col-sign">Cuando se trata de… / Más vale que…</td>
                             <td className="resumen-col-regla">Se usa para enfocar o cambiar de tema; si sigue un verbo, lleva -ING.</td>
                             <td className="resumen-col-ejemplo">
                                 She is very creative <span className="res-hl res-hl--teal">when it comes to solving problems</span>.
