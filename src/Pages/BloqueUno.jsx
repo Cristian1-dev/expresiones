@@ -19,7 +19,7 @@ const ejemplos = [
             { text: 'some', highlight: false },
             { text: 'thought."', highlight: true },
         ],
-        espanol: 'No sé, necesito pensarlo un poco más'
+        espanol: 'No sé, necesito pensarlo un poco.'
     },
     {
         ingles: [
