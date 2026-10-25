@@ -5,6 +5,7 @@ import { BloqueTres } from './Pages/BloqueTres';
 import { BloqueCuatro } from './Pages/BloqueCuatro';
 import { BloqueCinco } from './Pages/BloqueCinco';
 import './App.css';
+import { Resumen } from './Pages/Resumen';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/bloque-tres" element={<BloqueTres />} />
         <Route path="/bloque-cuatro" element={<BloqueCuatro />} />
         <Route path="/bloque-cinco" element={<BloqueCinco />} />
+        <Route path="/resumen" element={<Resumen />} />
       </Routes>
     </BrowserRouter>
   );
