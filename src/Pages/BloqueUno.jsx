@@ -184,7 +184,7 @@ export const BloqueUno = () => {
                         {step >= 3 && (
                             <h2 className="bloque-subtitle">
                                 <span className="bloque-subtitle__tag">Significado:</span>
-                                pensarlo / reflexionarlo / considerarlo
+                                pensar / reflexionar / considerar
                             </h2>
                         )}
                     </div>
